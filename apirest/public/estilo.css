@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/*Fonte importada*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/*Formatção da interface*/
+#interface {
+	position: relative;
+	width: 900px;
+	background-color: white;
+	margin: 250px auto 0px auto;
+	font-family: 'Roboto', sans-serif;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+}
+
+/*Formatçãoo do cabeçalho*/
+#cabecalho{
+	font-family: 'Roboto', sans-serif;
+	color: #696969;
+	font-weight: 900;
+	background: url("fundo-cinza.jpg") no-repeat 0px;
+	padding: 10px;
+	border-bottom: 1px rgba(0,0,0,.2) solid;
+	box-shadow: 0px 1px 2px rgba(0,0,0,.5);
+}
+/*Formatção dos links*/
+#mudapagina {
+	padding: 20px;
+	background-color: #DCDCDC;
+	border-bottom: 1px rgba(192,192,192, .5) solid;
+}
+#mudapagina a{
+	text-decoration: none;
+	color: white;
+	background-color: #1E90FF;
+	padding: 10px;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+}
+/**Formatação das tabelas*/
+#tabelaTopo{
+	display: block;
+	padding: 10px;
+	margin-right: 20px;
+	margin-left: 20px;
+	border-spacing: 0px;
+}
+#tabelaTopo td{
+	position: relative;
+	display:inline-block;
+	padding: 10px;
+	border: 1px rgba(0,0,0,.1) solid;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 10px;
+	text-align: center;
+	vertical-align: center;
+	font-size: 8pt;
+	background-color: rgba(220,220,220, .4);
+	border-bottom: 2px rgba(0,0,0,.3) solid;
+}
+#tabelaTopo td.id{
+	width: 190px;
+}
+#tabelaTopo td.nome{
+	width: 90px;
+}
+#tabelaTopo td.categoria{
+	width: 100px;
+}
+#tabelaTopo td.quantidade{
+	width: 183px;
+}
+#tabelaTopo td.avaliacao{
+	width: 100px;
+}
+#tabelaTopo td.acoes{
+	width:100px;
+}
+/*Formatação tabela-corpo*/
+#tabelaCorpo{
+	display: block;
+	padding: 10px;
+	margin-right: -8px;
+	margin-left: -8px;
+	border-spacing: 0px;
+	position: relative;
+}
+#tabelaCorpo td{
+	position: relative;
+	display:inline-block;
+	padding: 10px;
+	border: 1px rgba(0,0,0,.1) solid;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 5px;
+	margin-right: 0px;
+	text-align: left;
+	vertical-align: center;
+	font-size: 8pt;
+	background-color: rgba(220,220,220, .2);
+	border-bottom: 2px rgba(0,0,0,.3) solid;
+}
+#tabelaCorpo td.id{
+	width: 190px;
+}
+#tabelaCorpo td.nome{
+	width: 90px;
+}
+#tabelaCorpo td.categoria{
+	width: 100px;
+}
+#tabelaCorpo td.quantidade{
+	width: 183px;
+}
+#tabelaCorpo td.avaliacao{
+	width: 100px;
+}
+#tabelaCorpo select{
+	width: 100px;
+	font-size: 8pt;
+}

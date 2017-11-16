@@ -1,0 +1,125 @@
+body{
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  	color: white;
+  	text-shadow: black 0.1em 0.1em 0.2em;
+  	background-color: black;
+  	font-size: 16px;
+  	margin: 0;
+}
+
+#type1{
+
+	font-color: white;
+	width: 100%;
+}
+
+#logo{
+	height: 110px;
+	width: 70px;
+	margin-left: 3%;
+	margin-top: 0%;
+	margin-bottom: 3%;
+}
+
+#menu{
+	margin-top: -3%;
+	background-color: #e50914;
+	padding-top:37px;
+	padding-left: 165px;
+}
+
+.link{
+	color: white;
+	text-decoration: none;
+	line-height: 90px;
+}
+
+.link{
+	float:left;
+	margin-top: -7%;
+	margin-left: 2%;
+	display: block;
+	font-size: 18.5px;
+}
+
+#movie{
+	background-color: #1C1C1C;
+	width: 900px;
+	height: auto;
+}
+
+#mod{
+	margin-left: 17%;
+}
+#mod #movie h1{
+	background-color: none;
+	margin-left: -37.2%;
+	display: inline-block;
+	font-size: 18.5px;
+}
+
+#mod #movie a{
+	padding-left: 65%;
+	display: inline-block;
+}
+
+#mod #info table{
+	position: relative;
+	border: 1px rgba(0,0,0,.1) solid;
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+	background-color: rgba(220,220,220, .5);
+	width: 900px;
+	box-shadow: 1px 1px 25px #000;
+}
+
+#mod #foto{
+	width: 150px;
+	height: 215px;
+}
+
+#mod #acoes select{
+	width: 100px;
+}
+
+#mod #info td{
+	width: 33%;
+}
+
+#mod #info img{
+	cursor: pointer;
+}
+
+#mod #aval{
+	color:black;
+	text-shadow: white 0.1em 0.1em 0.2em;
+}
+
+#mod #aval img{
+	width: 20px;
+	cursor: pointer;
+	box-shadow: 2px 2px 25px #000;
+	border-radius: 3px;
+}
+
+#mod #fundo{
+	width: 900px;
+	box-shadow: 1px 1px 25px #000;
+	position: absolute;
+}
+
+#mod .opcoes {
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 10px;
+}
+
+#mod #foto1{
+	float: left;
+	margin-right: 10px;
+	height: 423px;
+}
+
+#mod1 #form3 #form2{
+	float: left;
+}

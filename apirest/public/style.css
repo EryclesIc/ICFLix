@@ -1,0 +1,39 @@
+#cad 
+{
+	position: relative;
+	width: 900px;
+	background-color: none;
+	margin: 250px auto 0px auto;
+
+}
+
+#topo
+{
+	font-family: 'Arial';
+	color: white;
+	font-weight: 900;
+	background: none;
+	padding: 10px;
+	margin-left: 240px;
+	text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px
+
+}
+#inicial 
+{
+	padding: 20px;
+	background-color: none;
+
+
+}
+#inicial a
+{
+	text-decoration: none;
+	color: white;
+	background-color: none;
+	padding: 5px;
+	font-family: 'Arial';
+	text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px
+
+}
+
+.borda{text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px}
